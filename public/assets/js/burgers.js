@@ -17,15 +17,17 @@ $(function () {
 
   $(".delete-burger").on("click", function (event) {
     const id = $(this).data("id");
-    var newDevour = $(this).data("newDevour");
+    var newdevour = $(this).data("newdevour");
 
-    var newDevourState = {
-      devoured: newDevour,
+    var newdevourState = {
+      devoured: newdevour,
     };
+    console.log("newDevour:", newdevour);
+    console.log("newDevourState:", newdevourState);
     // put request
     $.ajax("/api/burgers/" + id, {
       type: "PUT",
-      data: newDevourState,
+      data: newdevourState,
     }).then(function () {
       location.reload();
     });
