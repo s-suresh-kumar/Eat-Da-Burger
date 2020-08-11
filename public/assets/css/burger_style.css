@@ -2,10 +2,15 @@ body {
   text-align: center;
   background-color: yellow;
 }
+
+ul {
+  list-style-type: none;
+}
 li {
   padding: 5px;
   margin: 5px;
   background: #faebd7;
+  font-weight: bold;
 }
 
 .label {
