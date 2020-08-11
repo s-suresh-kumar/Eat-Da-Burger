@@ -1,9 +1,9 @@
 const mysql = require("mysql");
 
 const connectionString = process.env.JAWSDB_URL || {
-  host: "localhost",
+  host: process.env.DB_HOST,
   port: 3306,
-  user: "root",
+  user: process.env.DB_USER,
   password: "Vetrivelk01#",
   database: "burgers_db",
 };
