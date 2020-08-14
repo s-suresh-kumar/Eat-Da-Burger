@@ -4,7 +4,7 @@
 
 A burger logger (restuarant app) with MySQL, Node, Express, Handlebars and a homemade ORM following the MVC design pattern
 
-[![Thumbnail](assets/images/noteTaker-thumbnail.jpg)](https://agile-everglades-01445.herokuapp.com/)
+[![Thumbnail](assets/images/Eat-Da-Burger-thumbnail.jpg)](https://intense-hollows-80590.herokuapp.com/ )
 
 [noteTaker walkthru video](https://drive.google.com/drive/u/1/folders/1zVc1CtDZp2PpXwULSME2ZVMwC6jKzKpp)
 
