@@ -11,6 +11,7 @@ CREATE TABLE burgers
     name VARCHAR
   (255) NOT NULL,
     devoured BOOLEAN DEFAULT false,
+    createdAt TIMESTAMP NOT_NULL DEFAULT CURRENT_TIMESTAMP,
     PRIMARY KEY
   (id)
 );
