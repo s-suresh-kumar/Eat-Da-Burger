@@ -6,12 +6,6 @@ A burger logger (restuarant app) with MySQL, Node, Express, Handlebars and a hom
 
 [![Thumbnail](public/assets/img/Eat-Da-Burger-thumbnail.JPG)](https://intense-hollows-80590.herokuapp.com/)
 
-[noteTaker walkthru video](https://drive.google.com/drive/u/1/folders/1zVc1CtDZp2PpXwULSME2ZVMwC6jKzKpp)
-
-#### App In Action
-
-![App in action](assets/images/noteTaker-walkthru.gif)
-
 ## Table of Contents
 
 - [Description](#Description)
@@ -30,7 +24,7 @@ A burger logger (restuarant app) with MySQL, Node, Express, Handlebars and a hom
 
 ## Description
 
-This is a fullstack app that uses html, css, bootstrap, nodeJS, express, express handlebars, mysql, dotenv and a homegrown ORM. It implements the following html routes GET '/' for the home page. It also implements the following api routes. POST '/api/burgers' for creating a new burger in json format. OUT '/api/burgers/:id/ for updating a particular burger's devoured state. The application does not use a sql db. It uses a home grown orm to abstract the data base queries. The auto-created id is rendered along with the burger name.
+This is a fullstack app that uses html, css, bootstrap, nodeJS, express, express handlebars, mysql, dotenv and a homegrown ORM. It implements the following html routes GET '/' for the home page. It also implements the following api routes. POST '/api/burgers' for creating a new burger in json format. OUT '/api/burgers/:id/ for updating a particular burger's devoured state. The application uses a mysql db. It uses a home grown orm to abstract the data base queries. The auto-created id is rendered along with the burger name.
 
 The user can order a new burger, it goes to waiting area to be devoured. Once the user clicks 'Devour it!' button, the burger moves to 'Devoured' section in the page.
 
@@ -39,13 +33,13 @@ The user can order a new burger, it goes to waiting area to be devoured. Once th
 You need express, express handlebars, mysql, dotenv packages installed for this app to run. So the steps are :
 
 1. Clone this [repository](https://github.com/s-suresh-kumar/Eat-Da-Burger)
-2. Issue `npm i` at your local repository root, so that all dependencies (express package) is installed.
+2. Issue `npm i` at your local repository root, so that all dependencies (express, express-handlebars, mysql, dotenv packages ) are installed.
 3. Then you can use loop back address on you to exercise this app. For that launch the app at the root of the repository 'nodemon server.js'. Then in the browser, go to http://localhost:8080/ and navigate from there to see the app in action.
 4. You may also deploy it in deployment platforms such as Heroku and then access the app using the url provided by the platform.
 
 ## Instructions
 
-Since this is a full stack app, the app needs to be deployed first. There is a deployed version available in Heroku. The url for the deployed app is https://agile-everglades-01445.herokuapp.com/. From here by filling out a new burger and clicking on 'New Burger' button, burger will get created in the database and taken to the waiting area to be devoured on the left side ( so rendered). Once the user clicks on the 'Devour it' button against the burger he wants to devour, it will move to the right section aptly named 'Devoured'. Currently there is no way to neither delete the burger nor clear the database for the user. All the effects of actions such as creating new burger, devouring it etc are immediately (re-)rendered for the user to see.
+Since this is a full stack app, the app needs to be deployed first. There is a deployed version available in Heroku. The url for the deployed app is https://intense-hollows-80590.herokuapp.com/. From here by filling out a new burger and clicking on 'New Burger' button, burger will get created in the database and taken to the waiting area to be devoured on the left side ( so rendered). Once the user clicks on the 'Devour it' button against the burger that he wants to devour, it will move to the right section aptly named 'Devoured'. Currently there is no way to neither delete the burger nor clear the database for the user. All the effects of actions such as creating new burger, devouring it etc are immediately (re-)rendered for the user to see.
 
 ## License
 
