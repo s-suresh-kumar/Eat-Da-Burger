@@ -34,7 +34,7 @@ You need express, express handlebars, mysql, dotenv packages installed for this 
 
 1. Clone this [repository](https://github.com/s-suresh-kumar/Eat-Da-Burger)
 2. Issue `npm i` at your local repository root, so that all dependencies (express, express-handlebars, mysql, dotenv packages ) are installed.
-3. Then you can use loop back address on you to exercise this app. For that launch the app at the root of the repository 'nodemon server.js'. Then in the browser, go to http://localhost:8080/ and navigate from there to see the app in action.
+3. Then you can use loop back address on your local machine to exercise this app. For that launch the app at the root of the repository 'nodemon server.js'. Then in the browser, go to http://localhost:8080/ and navigate from there to see the app in action.
 4. You may also deploy it in deployment platforms such as Heroku and then access the app using the url provided by the platform.
 
 ## Instructions
